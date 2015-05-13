@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Comfortable Commuter</title>
+	<link rel="icon" type="image/png" href="images/icon_54.png">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="script.js">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Oswald:400,300|Maven+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="wrapper clearfix">
+	<h1>Comfortable commuter</h1>
+	<h3>Take the guesswork out of your bicycle commute</h3>
+
+	<form action="" class="location">
+		<label for="city">City</label>
+		<input type="text" id="city" class='city text'>
+		<label for="stateProvince">Province, State, or Country (outside North America)</label>
+		<input type="text" id="stateProvince" class="stateProvince text">
+		<input class="button" type="submit" value="Hit the Road">
+	</form>
+
+	<div class="weatherOuter sections">
+	<h2>The weather is:</h2>
+	<div class="weatherimage images"></div>	
+	<h3><span class='weather'></span></h3>
+	<h3><span class="windDirection"></span> <span class='windSpeed'></span></h3>
+	<h3><span class='temp'></span></h3>
+	<h3><span class='windChill'></span></h3>
+
+	</div> <!-- weather ends here -->
+	
+	<div class="advice sections">
+	<h2>Commute in:</h2>
+
+	<div class="adviceimage images"></div>
+
+	<h3><span class='adviceTwo'></span></h3>
+
+	<h3><span class='adviceOne'></span></h3>
+
+	
+
+	</div>
+
+</div> <!-- wrapper ends here -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script> 
+  <script src="script.js"></script> 
+
+</body>
+</html>
